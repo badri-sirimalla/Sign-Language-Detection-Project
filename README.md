@@ -50,7 +50,18 @@
 
 # Project Structure
 
-`SignLanguageDetection/ │ ├── MP_Data/                 # Collected keypoint data │   ├── hello/ │   ├── thanks/ │   └── iloveyou/ │ ├── Logs/                    # TensorBoard logs ├── action.h5                # Saved LSTM model ├── sign_language.ipynb      # Main project notebook └── README.md`
+- SignLanguageDetection/
+│
+├── MP_Data/                 # Collected keypoint data
+│   ├── hello/
+│   ├── thanks/
+│   └── iloveyou/
+│
+├── Logs/                    # TensorBoard logs
+├── action.h5                # Saved LSTM model
+├── sign_language.ipynb      # Main project notebook
+└── README.md
+
 
 # Getting Started
  - Clone this repository
