@@ -15,8 +15,11 @@
 
 # Project Workflow
  1. Import and Install Dependencies
-  `pip install tensorflow==2.4.1 opencv-python mediapipe-silicon sklearn matplotlib`
-  `import cv2, numpy as np, os, time import mediapipe as mp from matplotlib import pyplot as plt`
+  pip install tensorflow==2.4.1 opencv-python mediapipe-silicon sklearn matplotlib
+
+  import cv2, numpy as np, os, time 
+  import mediapipe as mp 
+  from matplotlib import pyplot as plt
 
 2. Keypoint Extraction using MediaPipe Holistic
  - Detects face, pose, left-hand, right-hand landmarks on webcam frames
@@ -34,7 +37,7 @@
  - Trained to classify actions: hello, thanks, iloveyou
  - Compiled using categorical_crossentropy loss and Adam optimizer
 
- `model.fit(X_train, y_train, epochs=2000, callbacks=[tb_callback])`
+  model.fit(X_train, y_train, epochs=2000, callbacks=[tb_callback])
 
 5. Evaluate Model
  - Confusion Matrix and Accuracy Score using sklearn
